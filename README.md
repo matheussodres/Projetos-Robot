@@ -4,13 +4,17 @@ Neste repositório, você encontrará vários projetos organizados em diferentes
 
 ## Projetos
 
-1. **Projeto A**
+1. **AutomationRobotAmazon**
    - **Localização:** `AutomationRobotAmazon`
-   - **Objetivo:** Este projeto procura um elemento na tela, e realiza pesquisa
+   - **Objetivo:** Este projeto é com a Library Selenium, testando a Amazon Brasil, com automações!
 
-2. **Projeto B**
+2. **QAx**
    - **Localização:** `QAx`
-   - **Objetivo:** Automatização de um ambiente com login e senha!
+   - **Objetivo:** Teste automarizado de um Gerenciador de Tarefas, juntamente com Library Selenium no Robot!
+
+3. *RobotDiscover**
+   - **Localização:** `RobotDiscover`
+   - **Objetivo:** Este projeto é uma automação no site da Dog Walker, uma startup. Utilizando a Library Browser no Robot.
 
 ## Problemas ou Dúvidas
 
