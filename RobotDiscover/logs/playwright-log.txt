@@ -1,0 +1,217 @@
+{"level":30,"time":"2024-02-25T14:31:22.491Z","pid":6416,"hostname":"PC-Matheus","msg":"Listening on 63137"}
+{"level":30,"time":"2024-02-25T14:31:22.737Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-02-25T14:31:22.737Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-02-25T14:31:22.739Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-02-25T14:31:22.739Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-02-25T14:31:22.742Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2024-02-25T14:31:22.996Z","pid":6416,"hostname":"PC-Matheus","msg":"Adding browser to stack: chromium, version: 120.0.6099.28"}
+{"level":30,"time":"2024-02-25T14:31:22.997Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method newBrowser"}
+{"level":30,"time":"2024-02-25T14:31:22.997Z","pid":6416,"hostname":"PC-Matheus","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2024-02-25T14:31:23.001Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-02-25T14:31:23.001Z","pid":6416,"hostname":"PC-Matheus","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-02-25T14:31:23.012Z","pid":6416,"hostname":"PC-Matheus","msg":"Changed active context"}
+{"level":30,"time":"2024-02-25T14:31:23.114Z","pid":6416,"hostname":"PC-Matheus","msg":"Video path: undefined"}
+{"level":30,"time":"2024-02-25T14:31:23.114Z","pid":6416,"hostname":"PC-Matheus","msg":"Changed active page"}
+{"level":30,"time":"2024-02-25T14:31:23.754Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method newPage"}
+{"level":30,"time":"2024-02-25T14:31:23.756Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2024-02-25T14:31:23.756Z","pid":6416,"hostname":"PC-Matheus","msg":"Strict mode is enabled, find Locator with form h1 in page."}
+{"level":30,"time":"2024-02-25T14:31:23.776Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2024-02-25T14:31:23.778Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method getText"}
+{"level":30,"time":"2024-02-25T14:31:23.778Z","pid":6416,"hostname":"PC-Matheus","msg":"Strict mode is enabled, find Locator with form h1 in page."}
+{"level":30,"time":"2024-02-25T14:31:23.794Z","pid":6416,"hostname":"PC-Matheus","msg":"Retrieved text for element form h1 containing Faça seu cadastro"}
+{"level":30,"time":"2024-02-25T14:31:23.794Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method getText"}
+{"level":30,"time":"2024-02-25T14:31:23.797Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-02-25T14:31:23.797Z","pid":6416,"hostname":"PC-Matheus","msg":"Strict mode is enabled, find Locator with css=input[name=name] in page."}
+{"level":30,"time":"2024-02-25T14:31:23.810Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method fillText"}
+{"level":30,"time":"2024-02-25T14:31:23.813Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-02-25T14:31:23.813Z","pid":6416,"hostname":"PC-Matheus","msg":"Strict mode is enabled, find Locator with css=input[name=email] in page."}
+{"level":30,"time":"2024-02-25T14:31:23.823Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method fillText"}
+{"level":30,"time":"2024-02-25T14:31:23.825Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-02-25T14:31:23.825Z","pid":6416,"hostname":"PC-Matheus","msg":"Strict mode is enabled, find Locator with css=input[name=cpf] in page."}
+{"level":30,"time":"2024-02-25T14:31:23.835Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method fillText"}
+{"level":30,"time":"2024-02-25T14:31:23.837Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-02-25T14:31:23.837Z","pid":6416,"hostname":"PC-Matheus","msg":"Strict mode is enabled, find Locator with css=input[name=cep] in page."}
+{"level":30,"time":"2024-02-25T14:31:23.847Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method fillText"}
+{"level":30,"time":"2024-02-25T14:31:23.848Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method click"}
+{"level":30,"time":"2024-02-25T14:31:23.849Z","pid":6416,"hostname":"PC-Matheus","msg":"Strict mode is enabled, find Locator with css=input[type=button][value$=CEP] in page."}
+{"level":30,"time":"2024-02-25T14:31:23.890Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method click"}
+{"level":30,"time":"2024-02-25T14:31:23.893Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:23.893Z","pid":6416,"hostname":"PC-Matheus","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2024-02-25T14:31:23.899Z","pid":6416,"hostname":"PC-Matheus","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2024-02-25T14:31:23.899Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:23.910Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:23.910Z","pid":6416,"hostname":"PC-Matheus","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2024-02-25T14:31:23.916Z","pid":6416,"hostname":"PC-Matheus","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2024-02-25T14:31:23.916Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:23.928Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:23.928Z","pid":6416,"hostname":"PC-Matheus","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2024-02-25T14:31:23.933Z","pid":6416,"hostname":"PC-Matheus","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2024-02-25T14:31:23.933Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:23.945Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:23.945Z","pid":6416,"hostname":"PC-Matheus","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2024-02-25T14:31:23.953Z","pid":6416,"hostname":"PC-Matheus","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2024-02-25T14:31:23.953Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:23.964Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:23.964Z","pid":6416,"hostname":"PC-Matheus","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2024-02-25T14:31:23.970Z","pid":6416,"hostname":"PC-Matheus","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2024-02-25T14:31:23.970Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:23.982Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:23.982Z","pid":6416,"hostname":"PC-Matheus","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2024-02-25T14:31:23.988Z","pid":6416,"hostname":"PC-Matheus","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2024-02-25T14:31:23.988Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:24.000Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:24.000Z","pid":6416,"hostname":"PC-Matheus","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2024-02-25T14:31:24.006Z","pid":6416,"hostname":"PC-Matheus","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2024-02-25T14:31:24.006Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:24.018Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:24.018Z","pid":6416,"hostname":"PC-Matheus","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2024-02-25T14:31:24.024Z","pid":6416,"hostname":"PC-Matheus","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2024-02-25T14:31:24.024Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:24.036Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:24.036Z","pid":6416,"hostname":"PC-Matheus","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2024-02-25T14:31:24.042Z","pid":6416,"hostname":"PC-Matheus","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2024-02-25T14:31:24.042Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:24.054Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:24.054Z","pid":6416,"hostname":"PC-Matheus","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2024-02-25T14:31:24.060Z","pid":6416,"hostname":"PC-Matheus","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2024-02-25T14:31:24.060Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:24.072Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:24.072Z","pid":6416,"hostname":"PC-Matheus","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2024-02-25T14:31:24.077Z","pid":6416,"hostname":"PC-Matheus","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2024-02-25T14:31:24.077Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:24.089Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:24.089Z","pid":6416,"hostname":"PC-Matheus","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2024-02-25T14:31:24.095Z","pid":6416,"hostname":"PC-Matheus","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2024-02-25T14:31:24.095Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:24.107Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:24.107Z","pid":6416,"hostname":"PC-Matheus","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2024-02-25T14:31:24.112Z","pid":6416,"hostname":"PC-Matheus","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2024-02-25T14:31:24.112Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:24.124Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:24.124Z","pid":6416,"hostname":"PC-Matheus","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2024-02-25T14:31:24.130Z","pid":6416,"hostname":"PC-Matheus","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2024-02-25T14:31:24.130Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:24.141Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:24.141Z","pid":6416,"hostname":"PC-Matheus","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2024-02-25T14:31:24.147Z","pid":6416,"hostname":"PC-Matheus","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2024-02-25T14:31:24.147Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:24.158Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:24.158Z","pid":6416,"hostname":"PC-Matheus","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2024-02-25T14:31:24.164Z","pid":6416,"hostname":"PC-Matheus","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2024-02-25T14:31:24.164Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:24.176Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:24.176Z","pid":6416,"hostname":"PC-Matheus","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2024-02-25T14:31:24.181Z","pid":6416,"hostname":"PC-Matheus","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2024-02-25T14:31:24.181Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:24.193Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:24.193Z","pid":6416,"hostname":"PC-Matheus","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2024-02-25T14:31:24.198Z","pid":6416,"hostname":"PC-Matheus","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2024-02-25T14:31:24.198Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:24.210Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:24.210Z","pid":6416,"hostname":"PC-Matheus","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2024-02-25T14:31:24.216Z","pid":6416,"hostname":"PC-Matheus","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2024-02-25T14:31:24.216Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:24.227Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:24.227Z","pid":6416,"hostname":"PC-Matheus","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2024-02-25T14:31:24.232Z","pid":6416,"hostname":"PC-Matheus","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2024-02-25T14:31:24.232Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:24.244Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:24.244Z","pid":6416,"hostname":"PC-Matheus","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2024-02-25T14:31:24.250Z","pid":6416,"hostname":"PC-Matheus","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2024-02-25T14:31:24.250Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:24.261Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:24.261Z","pid":6416,"hostname":"PC-Matheus","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2024-02-25T14:31:24.267Z","pid":6416,"hostname":"PC-Matheus","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2024-02-25T14:31:24.267Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:24.279Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:24.279Z","pid":6416,"hostname":"PC-Matheus","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2024-02-25T14:31:24.285Z","pid":6416,"hostname":"PC-Matheus","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2024-02-25T14:31:24.285Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:24.297Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:24.297Z","pid":6416,"hostname":"PC-Matheus","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2024-02-25T14:31:24.303Z","pid":6416,"hostname":"PC-Matheus","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2024-02-25T14:31:24.303Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:24.314Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:24.314Z","pid":6416,"hostname":"PC-Matheus","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2024-02-25T14:31:24.319Z","pid":6416,"hostname":"PC-Matheus","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2024-02-25T14:31:24.319Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:24.331Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:24.331Z","pid":6416,"hostname":"PC-Matheus","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2024-02-25T14:31:24.336Z","pid":6416,"hostname":"PC-Matheus","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2024-02-25T14:31:24.336Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:24.347Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:24.347Z","pid":6416,"hostname":"PC-Matheus","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2024-02-25T14:31:24.353Z","pid":6416,"hostname":"PC-Matheus","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2024-02-25T14:31:24.353Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:24.365Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:24.365Z","pid":6416,"hostname":"PC-Matheus","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2024-02-25T14:31:24.372Z","pid":6416,"hostname":"PC-Matheus","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2024-02-25T14:31:24.372Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:24.383Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:24.384Z","pid":6416,"hostname":"PC-Matheus","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2024-02-25T14:31:24.390Z","pid":6416,"hostname":"PC-Matheus","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2024-02-25T14:31:24.390Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:24.402Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:24.402Z","pid":6416,"hostname":"PC-Matheus","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2024-02-25T14:31:24.408Z","pid":6416,"hostname":"PC-Matheus","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2024-02-25T14:31:24.408Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:24.420Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:24.420Z","pid":6416,"hostname":"PC-Matheus","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2024-02-25T14:31:24.426Z","pid":6416,"hostname":"PC-Matheus","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2024-02-25T14:31:24.426Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:24.438Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:24.438Z","pid":6416,"hostname":"PC-Matheus","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2024-02-25T14:31:24.453Z","pid":6416,"hostname":"PC-Matheus","msg":"Retrieved dom property for element css=input[name=addressStreet] containing Rua Joaquim Floriano"}
+{"level":30,"time":"2024-02-25T14:31:24.453Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:24.454Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:24.454Z","pid":6416,"hostname":"PC-Matheus","msg":"Strict mode is enabled, find Locator with css=input[name=addressDistrict] in page."}
+{"level":30,"time":"2024-02-25T14:31:24.459Z","pid":6416,"hostname":"PC-Matheus","msg":"Retrieved dom property for element css=input[name=addressDistrict] containing Itaim Bibi"}
+{"level":30,"time":"2024-02-25T14:31:24.460Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:24.461Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:24.461Z","pid":6416,"hostname":"PC-Matheus","msg":"Strict mode is enabled, find Locator with css=input[name=addressCityUf] in page."}
+{"level":30,"time":"2024-02-25T14:31:24.468Z","pid":6416,"hostname":"PC-Matheus","msg":"Retrieved dom property for element css=input[name=addressCityUf] containing São Paulo/SP"}
+{"level":30,"time":"2024-02-25T14:31:24.468Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2024-02-25T14:31:24.470Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-02-25T14:31:24.470Z","pid":6416,"hostname":"PC-Matheus","msg":"Strict mode is enabled, find Locator with css=input[name=addressNumber] in page."}
+{"level":30,"time":"2024-02-25T14:31:24.480Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method fillText"}
+{"level":30,"time":"2024-02-25T14:31:24.482Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-02-25T14:31:24.482Z","pid":6416,"hostname":"PC-Matheus","msg":"Strict mode is enabled, find Locator with css=input[name=addressDetails] in page."}
+{"level":30,"time":"2024-02-25T14:31:24.490Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method fillText"}
+{"level":30,"time":"2024-02-25T14:31:24.492Z","pid":6416,"hostname":"PC-Matheus","msg":"Strict mode is enabled, find Locator with css=input[type=file] in page."}
+{"level":30,"time":"2024-02-25T14:31:24.506Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method click"}
+{"level":30,"time":"2024-02-25T14:31:24.506Z","pid":6416,"hostname":"PC-Matheus","msg":"Strict mode is enabled, find Locator with css=.button-register in page."}
+{"level":30,"time":"2024-02-25T14:31:24.624Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method click"}
+{"level":30,"time":"2024-02-25T14:31:24.627Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2024-02-25T14:31:24.627Z","pid":6416,"hostname":"PC-Matheus","msg":"Strict mode is enabled, find Locator with css=.swal2-html-container in page."}
+{"level":30,"time":"2024-02-25T14:31:25.451Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2024-02-25T14:31:25.453Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method getText"}
+{"level":30,"time":"2024-02-25T14:31:25.453Z","pid":6416,"hostname":"PC-Matheus","msg":"Strict mode is enabled, find Locator with css=.swal2-html-container in page."}
+{"level":30,"time":"2024-02-25T14:31:25.461Z","pid":6416,"hostname":"PC-Matheus","msg":"Retrieved text for element css=.swal2-html-container containing Recebemos o seu cadastro e em breve retornaremos o contato."}
+{"level":30,"time":"2024-02-25T14:31:25.461Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method getText"}
+{"level":30,"time":"2024-02-25T14:31:25.465Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-02-25T14:31:25.467Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-02-25T14:31:25.468Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-02-25T14:31:25.468Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-02-25T14:31:25.470Z","pid":6416,"hostname":"PC-Matheus","msg":"Changed active context"}
+{"level":30,"time":"2024-02-25T14:31:25.470Z","pid":6416,"hostname":"PC-Matheus","msg":"Changing current active page: page=1b9bfc4c-2ef7-4d23-837e-d680d0a75e61"}
+{"level":30,"time":"2024-02-25T14:31:25.470Z","pid":6416,"hostname":"PC-Matheus","msg":"Changed active page"}
+{"level":30,"time":"2024-02-25T14:31:25.475Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-02-25T14:31:25.476Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-02-25T14:31:25.477Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-02-25T14:31:25.477Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-02-25T14:31:25.478Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-02-25T14:31:25.479Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-02-25T14:31:25.480Z","pid":6416,"hostname":"PC-Matheus","msg":"Changing current active page: page=1b9bfc4c-2ef7-4d23-837e-d680d0a75e61"}
+{"level":30,"time":"2024-02-25T14:31:25.480Z","pid":6416,"hostname":"PC-Matheus","msg":"Changed active page"}
+{"level":30,"time":"2024-02-25T14:31:25.482Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-02-25T14:31:25.483Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-02-25T14:31:25.484Z","pid":6416,"hostname":"PC-Matheus","msg":"Changed active context"}
+{"level":30,"time":"2024-02-25T14:31:25.484Z","pid":6416,"hostname":"PC-Matheus","msg":"Changing current active page: page=1b9bfc4c-2ef7-4d23-837e-d680d0a75e61"}
+{"level":30,"time":"2024-02-25T14:31:25.484Z","pid":6416,"hostname":"PC-Matheus","msg":"Changed active page"}
+{"level":30,"time":"2024-02-25T14:31:25.485Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method closeContext"}
+{"level":30,"time":"2024-02-25T14:31:25.494Z","pid":6416,"hostname":"PC-Matheus","msg":"Removed page=08d3ae46-c27c-445f-a0ed-e3117da86565 from context=bf044ad6-2f49-4dd5-809a-f448de6eea4a page stack"}
+{"level":30,"time":"2024-02-25T14:31:25.506Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method closeContext"}
+{"level":30,"time":"2024-02-25T14:31:25.511Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-02-25T14:31:25.511Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-02-25T14:31:25.537Z","pid":6416,"hostname":"PC-Matheus","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2024-02-25T14:31:25.665Z","pid":6416,"hostname":"PC-Matheus","msg":"End of node method closeAllBrowsers"}
