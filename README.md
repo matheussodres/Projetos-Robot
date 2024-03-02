@@ -15,6 +15,10 @@ Neste repositório, você encontrará vários projetos organizados em diferentes
 3. *RobotDiscover**
    - **Localização:** `RobotDiscover`
    - **Objetivo:** Este projeto é uma automação no site da Dog Walker, uma startup. Utilizando a Library Browser no Robot.
+  
+4. *ProjetoComPlaywright**
+   - **Localização:** `ProjetoComPlaywright`
+   - **Objetivo:** Este projeto é uma automação no site da ServerRest, utiliando a Lib Playwright
 
 ## Problemas ou Dúvidas
 
