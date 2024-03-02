@@ -12,11 +12,11 @@ Neste repositório, você encontrará vários projetos organizados em diferentes
    - **Localização:** `QAx`
    - **Objetivo:** Teste automarizado de um Gerenciador de Tarefas, juntamente com Library Selenium no Robot!
 
-3. *RobotDiscover**
+3. **RobotDiscover**
    - **Localização:** `RobotDiscover`
    - **Objetivo:** Este projeto é uma automação no site da Dog Walker, uma startup. Utilizando a Library Browser no Robot.
   
-4. *ProjetoComPlaywright**
+4. **ProjetoComPlaywright**
    - **Localização:** `ProjetoComPlaywright`
    - **Objetivo:** Este projeto é uma automação no site da ServerRest, utiliando a Lib Playwright
 
