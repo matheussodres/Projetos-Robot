@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.1 on win32)" generated="2024-04-06T18:43:28.603560" rpa="false" schemaversion="5">
+<suite id="s1" name="Teste Usuario" source="D:\Projetos-Robot\Udemy\API\teste_usuario.robot">
+<kw name="Criar sessão" type="SETUP">
+<msg time="2024-04-06T18:43:28.676279" level="TRACE">Arguments: [  ]</msg>
+<kw name="Create Session" owner="RequestsLibrary">
+<msg time="2024-04-06T18:43:28.676792" level="TRACE">Arguments: [ alias='api' | url='https://serverest.dev' ]</msg>
+<msg time="2024-04-06T18:43:28.676792" level="INFO">Creating Session using : alias=api, url=https://serverest.dev, headers={},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<msg time="2024-04-06T18:43:28.676792" level="DEBUG">Creating session: api</msg>
+<msg time="2024-04-06T18:43:28.676792" level="TRACE">Return: &lt;requests.sessions.Session object at 0x000002BADEE0C1A0&gt;</msg>
+<arg>alias=api</arg>
+<arg>url=https://serverest.dev</arg>
+<doc>Create Session: create a HTTP session to a server</doc>
+<status status="PASS" start="2024-04-06T18:43:28.676792" elapsed="0.000000"/>
+</kw>
+<msg time="2024-04-06T18:43:28.677302" level="TRACE">Return: None</msg>
+<status status="PASS" start="2024-04-06T18:43:28.676279" elapsed="0.001023"/>
+</kw>
+<test id="s1-t1" name="Teste - CRUD" line="15">
+<kw name="Criação de Usuario">
+<msg time="2024-04-06T18:43:28.677302" level="TRACE">Arguments: [  ]</msg>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2024-04-06T18:43:28.677302" level="TRACE">Arguments: [ 'Content-Type=application/json' ]</msg>
+<msg time="2024-04-06T18:43:28.677302" level="TRACE">Return: {'Content-Type': 'application/json'}</msg>
+<msg time="2024-04-06T18:43:28.677302" level="INFO">${header} = {'Content-Type': 'application/json'}</msg>
+<var>${header}</var>
+<arg>Content-Type=application/json</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2024-04-06T18:43:28.677302" elapsed="0.000000"/>
+</kw>
+<kw name="POST On Session" owner="RequestsLibrary">
+<msg time="2024-04-06T18:43:28.678311" level="TRACE">Arguments: [ alias='api' | url='/usuarios' | headers={'Content-Type': 'application/json'} | data='{"nome": "Fulano da Silva","email": "beltrano@qa1.com.br","password": "teste","administrador": "true"}' ]</msg>
+<msg time="2024-04-06T18:43:28.680344" level="DEBUG">Starting new HTTPS connection (1): serverest.dev:443</msg>
+<msg time="2024-04-06T18:43:29.058415" level="DEBUG">https://serverest.dev:443 "POST /usuarios HTTP/1.1" 201 82</msg>
+<msg time="2024-04-06T18:43:29.058415" level="INFO">POST Request : url=https://serverest.dev/usuarios 
+ path_url=/usuarios 
+ headers={'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Content-Length': '102'} 
+ body={"nome": "Fulano da Silva","email": "beltrano@qa1.com.br","password": "teste","administrador": "true"} 
+ </msg>
+<msg time="2024-04-06T18:43:29.058928" level="INFO">POST Response : url=https://serverest.dev/usuarios 
+ status=201, reason=Created 
+ headers={'access-control-allow-origin': '*', 'x-dns-prefetch-control': 'off', 'x-frame-options': 'SAMEORIGIN', 'strict-transport-security': 'max-age=15552000; includeSubDomains', 'x-download-options': 'noopen', 'x-content-type-options': 'nosniff', 'x-xss-protection': '1; mode=block', 'content-type': 'application/json; charset=utf-8', 'X-Cloud-Trace-Context': 'ea4569498d70e00fdc86531cf443dcf2;o=1', 'Date': 'Sat, 06 Apr 2024 21:43:28 GMT', 'Server': 'Google Frontend', 'Content-Length': '82'} 
+ body={
+    "message": "Cadastro realizado com sucesso",
+    "_id": "B6WyjsfToBpVCbNB"
+} 
+ </msg>
+<msg time="2024-04-06T18:43:29.058928" level="INFO">C:\Users\mathe\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py:1099: InsecureRequestWarning: Unverified HTTPS request is being made to host 'serverest.dev'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(</msg>
+<msg time="2024-04-06T18:43:29.059500" level="TRACE">Return: &lt;Response [201]&gt;</msg>
+<msg time="2024-04-06T18:43:29.059500" level="INFO">${RESPONSE} = &lt;Response [201]&gt;</msg>
+<var>${RESPONSE}</var>
+<arg>alias=api</arg>
+<arg>url=/usuarios</arg>
+<arg>headers=${header}</arg>
+<arg>data={"nome": "Fulano da Silva","email": "beltrano@qa1.com.br","password": "teste","administrador": "true"}</arg>
+<doc>Sends a POST request on a previously created HTTP Session.</doc>
+<status status="PASS" start="2024-04-06T18:43:28.677302" elapsed="0.382703"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2024-04-06T18:43:29.060516" level="TRACE">Arguments: [ 'B6WyjsfToBpVCbNB' ]</msg>
+<msg time="2024-04-06T18:43:29.060516" level="TRACE">Return: 'B6WyjsfToBpVCbNB'</msg>
+<msg time="2024-04-06T18:43:29.060516" level="INFO">${USER_ID} = B6WyjsfToBpVCbNB</msg>
+<var>${USER_ID}</var>
+<arg>${RESPONSE.json()['_id']}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2024-04-06T18:43:29.060005" elapsed="0.000511"/>
+</kw>
+<return>
+<value>${USER_ID}</value>
+<status status="PASS" start="2024-04-06T18:43:29.060516" elapsed="0.000000"/>
+</return>
+<msg time="2024-04-06T18:43:29.060516" level="TRACE">Return: 'B6WyjsfToBpVCbNB'</msg>
+<msg time="2024-04-06T18:43:29.060516" level="INFO">${USER_ID} = B6WyjsfToBpVCbNB</msg>
+<var>${USER_ID}</var>
+<status status="PASS" start="2024-04-06T18:43:28.677302" elapsed="0.383214"/>
+</kw>
+<kw name="Busca de Usuario">
+<msg time="2024-04-06T18:43:29.061525" level="TRACE">Arguments: [ ${USER_ID}='B6WyjsfToBpVCbNB' ]</msg>
+<kw name="GET On Session" owner="RequestsLibrary">
+<msg time="2024-04-06T18:43:29.061525" level="TRACE">Arguments: [ alias='api' | url='/usuarios/B6WyjsfToBpVCbNB' ]</msg>
+<msg time="2024-04-06T18:43:29.237679" level="DEBUG">https://serverest.dev:443 "GET /usuarios/B6WyjsfToBpVCbNB HTTP/1.1" 200 154</msg>
+<msg time="2024-04-06T18:43:29.238684" level="INFO">GET Request : url=https://serverest.dev/usuarios/B6WyjsfToBpVCbNB 
+ path_url=/usuarios/B6WyjsfToBpVCbNB 
+ headers={'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'} 
+ body=None 
+ </msg>
+<msg time="2024-04-06T18:43:29.238684" level="INFO">GET Response : url=https://serverest.dev/usuarios/B6WyjsfToBpVCbNB 
+ status=200, reason=OK 
+ headers={'access-control-allow-origin': '*', 'x-dns-prefetch-control': 'off', 'x-frame-options': 'SAMEORIGIN', 'strict-transport-security': 'max-age=15552000; includeSubDomains', 'x-download-options': 'noopen', 'x-content-type-options': 'nosniff', 'x-xss-protection': '1; mode=block', 'content-type': 'application/json; charset=utf-8', 'X-Cloud-Trace-Context': '997d301698e60aea1b16a832d165c142', 'Date': 'Sat, 06 Apr 2024 21:43:28 GMT', 'Server': 'Google Frontend', 'Content-Length': '154'} 
+ body={
+    "nome": "Fulano da Silva",
+    "email": "beltrano@qa1.com.br",
+    "password": "teste",
+    "administrador": "true",
+    "_id": "B6WyjsfToBpVCbNB"
+} 
+ </msg>
+<msg time="2024-04-06T18:43:29.238684" level="INFO">C:\Users\mathe\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py:1099: InsecureRequestWarning: Unverified HTTPS request is being made to host 'serverest.dev'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(</msg>
+<msg time="2024-04-06T18:43:29.239188" level="TRACE">Return: &lt;Response [200]&gt;</msg>
+<msg time="2024-04-06T18:43:29.239188" level="INFO">${RESPONSE} = &lt;Response [200]&gt;</msg>
+<var>${RESPONSE}</var>
+<arg>alias=api</arg>
+<arg>url=/usuarios/${USER_ID}</arg>
+<doc>Sends a GET request on a previously created HTTP Session.</doc>
+<status status="PASS" start="2024-04-06T18:43:29.061525" elapsed="0.177663"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2024-04-06T18:43:29.239700" level="TRACE">Arguments: [ {'nome': 'Fulano da Silva',
+ 'email': 'beltrano@qa1.com.br',
+ 'password': 'teste',
+ 'administrador': 'true',
+ '_id': 'B6WyjsfToBpVCbNB'} ]</msg>
+<msg time="2024-04-06T18:43:29.239700" level="TRACE">Return: {'nome': 'Fulano da Silva',
+ 'email': 'beltrano@qa1.com.br',
+ 'password': 'teste',
+ 'administrador': 'true',
+ '_id': 'B6WyjsfToBpVCbNB'}</msg>
+<msg time="2024-04-06T18:43:29.239700" level="INFO">${RETORNO} = {'nome': 'Fulano da Silva', 'email': 'beltrano@qa1.com.br', 'password': 'teste', 'administrador': 'true', '_id': 'B6WyjsfToBpVCbNB'}</msg>
+<var>${RETORNO}</var>
+<arg>${RESPONSE.json()}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2024-04-06T18:43:29.239188" elapsed="0.000512"/>
+</kw>
+<msg time="2024-04-06T18:43:29.239700" level="TRACE">Return: None</msg>
+<arg>USER_ID=${USER_ID}</arg>
+<status status="PASS" start="2024-04-06T18:43:29.060516" elapsed="0.179184"/>
+</kw>
+<kw name="Atualizar Usuario">
+<msg time="2024-04-06T18:43:29.240713" level="TRACE">Arguments: [ ${USER_ID}='B6WyjsfToBpVCbNB' ]</msg>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2024-04-06T18:43:29.240713" level="TRACE">Arguments: [ 'Content-Type=application/json' ]</msg>
+<msg time="2024-04-06T18:43:29.240713" level="TRACE">Return: {'Content-Type': 'application/json'}</msg>
+<msg time="2024-04-06T18:43:29.240713" level="INFO">${header} = {'Content-Type': 'application/json'}</msg>
+<var>${header}</var>
+<arg>Content-Type=application/json</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2024-04-06T18:43:29.240713" elapsed="0.000000"/>
+</kw>
+<kw name="PUT On Session" owner="RequestsLibrary">
+<msg time="2024-04-06T18:43:29.240713" level="TRACE">Arguments: [ alias='api' | url='/usuarios/B6WyjsfToBpVCbNB' | headers={'Content-Type': 'application/json'} | data='{"nome": "Matheus Sodre","email": "matheus.qa@qa1.com.br","password": "teste","administrador": "true"}' ]</msg>
+<msg time="2024-04-06T18:43:29.420539" level="DEBUG">https://serverest.dev:443 "PUT /usuarios/B6WyjsfToBpVCbNB HTTP/1.1" 200 50</msg>
+<msg time="2024-04-06T18:43:29.420539" level="INFO">PUT Request : url=https://serverest.dev/usuarios/B6WyjsfToBpVCbNB 
+ path_url=/usuarios/B6WyjsfToBpVCbNB 
+ headers={'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Content-Length': '102'} 
+ body={"nome": "Matheus Sodre","email": "matheus.qa@qa1.com.br","password": "teste","administrador": "true"} 
+ </msg>
+<msg time="2024-04-06T18:43:29.420539" level="INFO">PUT Response : url=https://serverest.dev/usuarios/B6WyjsfToBpVCbNB 
+ status=200, reason=OK 
+ headers={'access-control-allow-origin': '*', 'x-dns-prefetch-control': 'off', 'x-frame-options': 'SAMEORIGIN', 'strict-transport-security': 'max-age=15552000; includeSubDomains', 'x-download-options': 'noopen', 'x-content-type-options': 'nosniff', 'x-xss-protection': '1; mode=block', 'content-type': 'application/json; charset=utf-8', 'X-Cloud-Trace-Context': '182c3f15c4f778bab6b31b9f6c187025', 'Date': 'Sat, 06 Apr 2024 21:43:29 GMT', 'Server': 'Google Frontend', 'Content-Length': '50'} 
+ body={
+    "message": "Registro alterado com sucesso"
+} 
+ </msg>
+<msg time="2024-04-06T18:43:29.420539" level="INFO">C:\Users\mathe\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py:1099: InsecureRequestWarning: Unverified HTTPS request is being made to host 'serverest.dev'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(</msg>
+<msg time="2024-04-06T18:43:29.421547" level="TRACE">Return: &lt;Response [200]&gt;</msg>
+<msg time="2024-04-06T18:43:29.421547" level="INFO">${RESPONSE} = &lt;Response [200]&gt;</msg>
+<var>${RESPONSE}</var>
+<arg>alias=api</arg>
+<arg>url=/usuarios/${USER_ID}</arg>
+<arg>headers=${header}</arg>
+<arg>data={"nome": "Matheus Sodre","email": "matheus.qa@qa1.com.br","password": "teste","administrador": "true"}</arg>
+<doc>Sends a PUT request on a previously created HTTP Session.</doc>
+<status status="PASS" start="2024-04-06T18:43:29.240713" elapsed="0.180834"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2024-04-06T18:43:29.421547" level="TRACE">Arguments: [ {'message': 'Registro alterado com sucesso'} ]</msg>
+<msg time="2024-04-06T18:43:29.421547" level="TRACE">Return: {'message': 'Registro alterado com sucesso'}</msg>
+<msg time="2024-04-06T18:43:29.421547" level="INFO">${RETORNO} = {'message': 'Registro alterado com sucesso'}</msg>
+<var>${RETORNO}</var>
+<arg>${RESPONSE.json()}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2024-04-06T18:43:29.421547" elapsed="0.000000"/>
+</kw>
+<msg time="2024-04-06T18:43:29.421547" level="TRACE">Return: None</msg>
+<arg>USER_ID=${USER_ID}</arg>
+<status status="PASS" start="2024-04-06T18:43:29.239700" elapsed="0.181847"/>
+</kw>
+<kw name="Busca de Usuario">
+<msg time="2024-04-06T18:43:29.422558" level="TRACE">Arguments: [ ${USER_ID}='B6WyjsfToBpVCbNB' ]</msg>
+<kw name="GET On Session" owner="RequestsLibrary">
+<msg time="2024-04-06T18:43:29.422558" level="TRACE">Arguments: [ alias='api' | url='/usuarios/B6WyjsfToBpVCbNB' ]</msg>
+<msg time="2024-04-06T18:43:29.600433" level="DEBUG">https://serverest.dev:443 "GET /usuarios/B6WyjsfToBpVCbNB HTTP/1.1" 200 154</msg>
+<msg time="2024-04-06T18:43:29.600433" level="INFO">GET Request : url=https://serverest.dev/usuarios/B6WyjsfToBpVCbNB 
+ path_url=/usuarios/B6WyjsfToBpVCbNB 
+ headers={'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'} 
+ body=None 
+ </msg>
+<msg time="2024-04-06T18:43:29.600433" level="INFO">GET Response : url=https://serverest.dev/usuarios/B6WyjsfToBpVCbNB 
+ status=200, reason=OK 
+ headers={'access-control-allow-origin': '*', 'x-dns-prefetch-control': 'off', 'x-frame-options': 'SAMEORIGIN', 'strict-transport-security': 'max-age=15552000; includeSubDomains', 'x-download-options': 'noopen', 'x-content-type-options': 'nosniff', 'x-xss-protection': '1; mode=block', 'content-type': 'application/json; charset=utf-8', 'X-Cloud-Trace-Context': '9f0bb41823dac2c51f3254e0bdc97226', 'Date': 'Sat, 06 Apr 2024 21:43:29 GMT', 'Server': 'Google Frontend', 'Content-Length': '154'} 
+ body={
+    "nome": "Matheus Sodre",
+    "email": "matheus.qa@qa1.com.br",
+    "password": "teste",
+    "administrador": "true",
+    "_id": "B6WyjsfToBpVCbNB"
+} 
+ </msg>
+<msg time="2024-04-06T18:43:29.600433" level="INFO">C:\Users\mathe\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py:1099: InsecureRequestWarning: Unverified HTTPS request is being made to host 'serverest.dev'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(</msg>
+<msg time="2024-04-06T18:43:29.600433" level="TRACE">Return: &lt;Response [200]&gt;</msg>
+<msg time="2024-04-06T18:43:29.600433" level="INFO">${RESPONSE} = &lt;Response [200]&gt;</msg>
+<var>${RESPONSE}</var>
+<arg>alias=api</arg>
+<arg>url=/usuarios/${USER_ID}</arg>
+<doc>Sends a GET request on a previously created HTTP Session.</doc>
+<status status="PASS" start="2024-04-06T18:43:29.422558" elapsed="0.177875"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2024-04-06T18:43:29.601445" level="TRACE">Arguments: [ {'nome': 'Matheus Sodre',
+ 'email': 'matheus.qa@qa1.com.br',
+ 'password': 'teste',
+ 'administrador': 'true',
+ '_id': 'B6WyjsfToBpVCbNB'} ]</msg>
+<msg time="2024-04-06T18:43:29.601445" level="TRACE">Return: {'nome': 'Matheus Sodre',
+ 'email': 'matheus.qa@qa1.com.br',
+ 'password': 'teste',
+ 'administrador': 'true',
+ '_id': 'B6WyjsfToBpVCbNB'}</msg>
+<msg time="2024-04-06T18:43:29.601445" level="INFO">${RETORNO} = {'nome': 'Matheus Sodre', 'email': 'matheus.qa@qa1.com.br', 'password': 'teste', 'administrador': 'true', '_id': 'B6WyjsfToBpVCbNB'}</msg>
+<var>${RETORNO}</var>
+<arg>${RESPONSE.json()}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2024-04-06T18:43:29.600433" elapsed="0.001012"/>
+</kw>
+<msg time="2024-04-06T18:43:29.601445" level="TRACE">Return: None</msg>
+<arg>USER_ID=${USER_ID}</arg>
+<status status="PASS" start="2024-04-06T18:43:29.422558" elapsed="0.178887"/>
+</kw>
+<kw name="Deletar Usuario">
+<msg time="2024-04-06T18:43:29.601445" level="TRACE">Arguments: [ ${USER_ID}='B6WyjsfToBpVCbNB' ]</msg>
+<kw name="DELETE On Session" owner="RequestsLibrary">
+<msg time="2024-04-06T18:43:29.601445" level="TRACE">Arguments: [ alias='api' | url='/usuarios/B6WyjsfToBpVCbNB' ]</msg>
+<msg time="2024-04-06T18:43:29.780167" level="DEBUG">https://serverest.dev:443 "DELETE /usuarios/B6WyjsfToBpVCbNB HTTP/1.1" 200 51</msg>
+<msg time="2024-04-06T18:43:29.780167" level="INFO">DELETE Request : url=https://serverest.dev/usuarios/B6WyjsfToBpVCbNB 
+ path_url=/usuarios/B6WyjsfToBpVCbNB 
+ headers={'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '0'} 
+ body=None 
+ </msg>
+<msg time="2024-04-06T18:43:29.780167" level="INFO">DELETE Response : url=https://serverest.dev/usuarios/B6WyjsfToBpVCbNB 
+ status=200, reason=OK 
+ headers={'access-control-allow-origin': '*', 'x-dns-prefetch-control': 'off', 'x-frame-options': 'SAMEORIGIN', 'strict-transport-security': 'max-age=15552000; includeSubDomains', 'x-download-options': 'noopen', 'x-content-type-options': 'nosniff', 'x-xss-protection': '1; mode=block', 'content-type': 'application/json; charset=utf-8', 'X-Cloud-Trace-Context': 'fc70998848f904c346af98d6675ac7e2', 'Date': 'Sat, 06 Apr 2024 21:43:29 GMT', 'Server': 'Google Frontend', 'Content-Length': '51'} 
+ body={
+    "message": "Registro excluído com sucesso"
+} 
+ </msg>
+<msg time="2024-04-06T18:43:29.780167" level="INFO">C:\Users\mathe\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py:1099: InsecureRequestWarning: Unverified HTTPS request is being made to host 'serverest.dev'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(</msg>
+<msg time="2024-04-06T18:43:29.781213" level="TRACE">Return: &lt;Response [200]&gt;</msg>
+<arg>alias=api</arg>
+<arg>url=/usuarios/${USER_ID}</arg>
+<doc>Sends a DELETE request on a previously created HTTP Session.</doc>
+<status status="PASS" start="2024-04-06T18:43:29.601445" elapsed="0.179768"/>
+</kw>
+<msg time="2024-04-06T18:43:29.781213" level="TRACE">Return: None</msg>
+<arg>USER_ID=${USER_ID}</arg>
+<status status="PASS" start="2024-04-06T18:43:29.601445" elapsed="0.179768"/>
+</kw>
+<status status="PASS" start="2024-04-06T18:43:28.677302" elapsed="1.103911"/>
+</test>
+<kw name="Encerrar sessão" type="TEARDOWN">
+<msg time="2024-04-06T18:43:29.782225" level="TRACE">Arguments: [  ]</msg>
+<kw name="Delete All Sessions" owner="RequestsLibrary">
+<msg time="2024-04-06T18:43:29.782225" level="TRACE">Arguments: [  ]</msg>
+<msg time="2024-04-06T18:43:29.782225" level="INFO">Deleting All Sessions</msg>
+<msg time="2024-04-06T18:43:29.782225" level="TRACE">Return: None</msg>
+<doc>Removes all the session objects</doc>
+<status status="PASS" start="2024-04-06T18:43:29.782225" elapsed="0.000000"/>
+</kw>
+<msg time="2024-04-06T18:43:29.782225" level="TRACE">Return: None</msg>
+<status status="PASS" start="2024-04-06T18:43:29.782225" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2024-04-06T18:43:28.604570" elapsed="1.177655"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Teste Usuario">Teste Usuario</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
